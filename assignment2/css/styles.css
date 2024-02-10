@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+div {
+    margin: 10px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input, select {
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#myStudentId {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#images {
+    max-width: 100%;
+    max-height: 300px; /* Adjust the height to your preference */
+    border: 2px solid #333; /* Add a border for the frame */
+    box-sizing: border-box; /* Include border in the element's total width and height */
+}
